@@ -1,0 +1,113 @@
+[Root]
+Most Recent Package=FutureNet Management
+
+
+[Package|FutureNet Management|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\IT Project\A2 level\Programming\Package
+
+[Package|FutureNet Management|Configure DAO ISAMs]
+Applicable=No
+
+[Package|FutureNet Management|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|FutureNet Management|Files Found]
+
+[Package|FutureNet Management|Files Released]
+AcroPDF.dll=
+
+[Package|FutureNet Management|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Program Files\Common Files\microsoft shared\OFFICE12\VS Runtime\CSSPKG.DLL=
+C:\Program Files\Seagate Software\Report Designer Component\craxdui.dll=
+C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=
+C:\Program Files\Common Files\Adobe\Acrobat\ActiveX\AcroPDF.dll=
+C:\Program Files\Adobe\Reader 11.0\Reader\AcroRd32.exe=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\CTRLWIZ.DLL=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\PDADDIN.DLL=
+
+[Package|FutureNet Management|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCOMCT2.OCX=
+
+[Package|FutureNet Management|Files Added]
+
+[Package|FutureNet Management|Files Removed]
+
+[Package|FutureNet Management|Files In Project]
+F:\IT Project\A2 level\Programming\Futurenet.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Windows\System32\Msflxgrd.ocx=Yes
+C:\Windows\System32\Crystl32.OCX=Yes
+C:\Windows\System32\crpe32.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=Yes
+C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=Yes
+C:\Program Files\Seagate Software\Report Designer Component\craxdui.dll=Yes
+C:\Program Files\Common Files\microsoft shared\OFFICE12\VS Runtime\CSSPKG.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\PDADDIN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\CTRLWIZ.DLL=Yes
+
+[Package|FutureNet Management|Configure Registry Files]
+Applicable=No
+
+[Package|FutureNet Management|Configure Remote Servers]
+Applicable=No
+
+[Package|FutureNet Management|Install Locations]
+F:\IT Project\A2 level\Programming\Futurenet.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\System32\Msflxgrd.ocx=$(WinSysPath)
+C:\Windows\System32\Crystl32.OCX=$(WinSysPath)
+C:\Windows\System32\crpe32.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Adobe\Reader 11.0\Reader\AcroRd32.exe=$(AppPath)
+C:\Program Files\Common Files\Adobe\Acrobat\ActiveX\AcroPDF.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Viewers\ActiveXViewer\crviewer.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Report Designer Component\craxdrt.dll=$(WinSysPath)
+C:\Program Files\Seagate Software\Report Designer Component\craxdui.dll=$(WinSysPath)
+C:\Program Files\Common Files\microsoft shared\OFFICE12\VS Runtime\CSSPKG.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\PDADDIN.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\CTRLWIZ.DLL=$(WinSysPath)
+
+[Package|FutureNet Management|Configure Shared Files]
+Applicable=Yes
+F:\IT Project\A2 level\Programming\Futurenet.exe=No
+C:\Program Files\Adobe\Reader 11.0\Reader\AcroRd32.exe=No
+
+[Package|FutureNet Management|Distribution]
+Type=single
+Size=
+Title=FutureNetSoftware
+
+[Package|FutureNet Management|IconGroups]
+Group0=FutureNetSoftware
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|FutureNet Management|FutureNetSoftware]
+Icon1=Futurenet.exe
+Title1=FutureNetSoftware
+StartIn1=$(AppPath)
+Key1=Icon1
